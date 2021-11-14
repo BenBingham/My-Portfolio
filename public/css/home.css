@@ -28,13 +28,15 @@ header{
     transition: scale 200ms linear; */
 }
 
-/* .hamburger:hover{
-    scale: 1;
-} */
+
 
 .logo {
     margin: 0 0 1em 1.5em;
     opacity: .8;
+}
+
+.logo-image:hover{
+    scale: 1.1;
 }
 
 /* hero */
@@ -190,7 +192,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 110vh;
  }
 
  form{
@@ -307,7 +309,7 @@ header{
 
 .form-button{
     display: block;
-    margin: 1em 0em 0 1em;
+    margin: 1em 0em 2em 1em;
 }
 .form-button button{
     background: var(--highlight);

@@ -28,7 +28,9 @@ header{
     opacity: .8;
 }
 
-
+.logo-image:hover{
+    scale: 1.1;
+}
 
 
 /* hamburger function */
