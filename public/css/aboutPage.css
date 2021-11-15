@@ -139,10 +139,12 @@ header{
      justify-content: center;
  }
 
- .info-image img{
+ .info-image  svg{
     max-width: 100%;
     height: auto;
  }
+
+
 
  .about-square{
     position: absolute;
@@ -194,3 +196,28 @@ header{
  }
 
  
+
+ @media screen and (max-width: 900px) {
+     .about-wrapper{
+         display: block;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+     }
+
+     .pimg2{
+         margin: 0 0 3em 0em;
+     }
+
+     .pimg1{
+         display: none;
+     }
+
+     .title{
+         font-size: 2rem;
+     }
+
+     
+     
+     
+ }
