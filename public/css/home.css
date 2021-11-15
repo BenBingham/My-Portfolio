@@ -701,7 +701,7 @@ header{
 
     .card-image{
         display: none;
-        min-height: fit-content;
+        
     }
 
     .card-info{
@@ -749,7 +749,7 @@ header{
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .about-square, .about-square2{
         display: none;
     }
