@@ -197,7 +197,7 @@ header{
 
  
 
- @media screen and (max-width: 900px) {
+ @media  (max-width: 900px) {
      .about-wrapper{
          display: block;
          justify-content: center;
@@ -217,7 +217,9 @@ header{
          font-size: 2rem;
      }
 
-     
+     .about-square, .about-square2{
+         display: none;
+     }
      
      
  }

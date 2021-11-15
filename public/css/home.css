@@ -716,14 +716,22 @@ header{
     
      .contact-logo{
         position: absolute;
-       top: 98%;
-       left: 40%;
+       top: 0;
+       left: 35%;
        flex-direction: row;
       
+    }
+
+    .topIcon{
+        margin-right: 1.5em;
     }
     .contact-logo::after, .contact-logo::before{
         display: none;
         bottom: 0;
+    }
+
+    .about-square, .about-square2{
+        display: none;
     }
 }
 
