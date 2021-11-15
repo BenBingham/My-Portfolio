@@ -5,12 +5,12 @@
     --primary: #0C1732;
     --highlight: #00C6C1;
     --text: #ebf3e9e3;
-    
+  
 }
 
 body{
     background-color: var(--primary);
-    overflow: hidden;
+   
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -370,22 +370,23 @@ header{
 .wrapper{
     position: relative;
     min-height: 100vh;
-    max-width: 100%;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 .about-heading{
-    margin: 2em 0 1em 2em ;
+    margin: 2em 0 1em 0em ;
 }
 
 .about-body{
-    margin: 0em 0 2.5em 6.5em ;
+  margin: 0 0 0 3em;
 }
 
 
 .about-button{
-    margin: 2.5em 0 2.5em 16em ;
+    margin: 2.5em 0 2.5em 0em ;
     padding: .6em 1.8rem .6rem 1.8rem;
     background: var(--highlight);
     border: none;
@@ -433,10 +434,10 @@ header{
 }
 
 .card-image{
-    max-width: 30%;
-    height: 30%;
-    margin: 5em 6em 1em 8em;
-    object-fit: contain;
+    max-width: 300px;
+    min-height: 300px;
+    margin: 2.5em 6em 1em 6em;
+    object-fit: cover;
     border: 2px solid #fff;
 }
 
@@ -526,7 +527,7 @@ header{
 
 .about-body{
     font-size: 1.2rem;
-    max-width: 40em;
+    max-width: 50em;
     line-height: 2em;
 }
 
@@ -548,6 +549,7 @@ header{
 
 .card-body{
     font-size: 1rem;
+    margin: 0 1em 0 0 ;
     max-width: 40em;
     line-height: 1.5em;
 }
@@ -677,11 +679,13 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
 
     
     .about-body{
         width: 60%;
+        margin: 0;
     }
 
     .skills-container{
@@ -692,10 +696,12 @@ header{
     .card-wrapper{
         flex-direction: column;
         align-items: center;
+        margin: 0;
     }
 
     .card-image{
         display: none;
+        min-height: fit-content;
     }
 
     .card-info{
@@ -715,6 +721,7 @@ header{
 
     form{
         width: 60%;
+        margin: 0;
         
     }
     .contact{
